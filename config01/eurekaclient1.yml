@@ -11,7 +11,7 @@ management:
   security:
     # 关闭安全验证，否则访问refresh断点时会提示权限不足
     enabled: false
-#  endpoints:
-#    web:
-#      exposure:
-#        include: bus-refresh
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
