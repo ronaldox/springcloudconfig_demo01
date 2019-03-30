@@ -7,3 +7,7 @@ server:
 spring:
   application:
     name: eurekaclient1
+management:
+  security:
+    # 关闭安全验证，否则访问refresh断点时会提示权限不足
+    enabled: false
